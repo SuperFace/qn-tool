@@ -1,8 +1,8 @@
-# qntool
+# qn-tool
 
 ## 使用帮助
 ```
-qntool --help
+qn-tool --help
 ```
 ```
  由于七牛对批量上传，不稳定，建议本地在使用
@@ -21,18 +21,25 @@ npm install
 `请用淘宝镜像：cnpm ,npm本地慢`
 ```
 # npm link to global node_modules/
-cd qntool
+```
+cd qn-tool
 cnpm link
+```
 
 # link to project /node_modules/
+```
 cd project
-cnpm link qntool
+cnpm link qn-tool
+```
 
 # unlink from project /node_modules/
+```
 cd project
-cnpm unlink qntool
+cnpm unlink qn-tool
+```
 
 # unlink from global node_modules/
-cd qntool
+```
+cd qn-tool
 cnpm unlink
 ```

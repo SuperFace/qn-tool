@@ -1,12 +1,12 @@
 {
-  "name": "qntool",
+  "name": "qn-tool",
   "version": "1.0.0",
   "description": "本地七牛上传工具",
   "author": "林小蕾 <https://github.com/SuperFace>",
   "private": true,
   "main": "index.js",
   "bin": {
-    "xtqiniu": "./bin/qntool"
+    "xtqiniu": "./bin/qn-tool"
   },
   "scripts": {
 
