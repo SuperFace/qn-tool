@@ -144,23 +144,6 @@ class QiniuUploadWebpackPlugin {
         } else {
             console.log(chalk.bgRed.black(' ERROR ') + chalk.red('缺少参数或文件不存在'))
         }
-
-        // let assetsPromise = [];
-        // const spinner = ora('开始上传七牛云...').start();
-        // Object.keys(data.compilation.assets).forEach(file => {
-        //     // 只上传bucket(如：xtassets/0_xxxxxxxxx.js）里构建出的文件
-        //     //可以深层遍历文件夹：--iterable
-        //     if (file.indexOf(this.qiniuConfig.bucket) != -1) {
-        //         assetsPromise.push(this.uploadFile(file));
-        //     }
-        // });
-        // Promise.all(assetsPromise)
-        // .then(res => {
-        //     spinner.succeed('七牛云上传完毕!');
-        // })
-        // .catch(err => {
-        //     console.log(err);
-        // });
     }
     iteratorDir(rootPath, distPath){//遍历出所有文件
          let files = fs.readdirSync(rootPath);
@@ -176,7 +159,6 @@ class QiniuUploadWebpackPlugin {
          });
     }
     uploadFile(filename, key, coverUploadToken, order) {
-        //const key = filename;
         const localFile = path.join('', filename);
         return new Promise((resolve, reject) => {
             // 文件上传
