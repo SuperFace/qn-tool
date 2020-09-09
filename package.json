@@ -6,7 +6,7 @@
   "private": true,
   "main": "index.js",
   "bin": {
-    "xtqiniu": "./bin/qn-tool"
+    "qn-tool": "./bin/qn-tool"
   },
   "scripts": {
 
