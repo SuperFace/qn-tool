@@ -1,0 +1,29 @@
+{
+  "name": "xtqiniu",
+  "version": "1.0.0",
+  "description": "本地七牛上传工具",
+  "main": "index.js",
+  "bin": {
+    "xtqiniu": "./bin/xtqiniu"
+  },
+  "scripts": {
+
+  },
+  "dependencies": {
+    "blueimp-md5": "^2.10.0",
+    "chalk": "^2.4.1",
+    "extend": "^3.0.1",
+    "formstream": "^1.1.0",
+    "fs-extra": "^6.0.1",
+    "glob": "^7.1.2",
+    "u-help": "^1.0.1",
+    "urllib": "^2.28.0",
+    "qiniu": "^7.3.0",
+    "ora": "^1.3.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
