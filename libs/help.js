@@ -6,9 +6,9 @@ const help = require('u-help')
 const pkg = require('../package.json')
 
 function main () {
-  help.show('xtqiniu v' + pkg.version, {
+  help.show('qntool v' + pkg.version, {
     '命令': {
-      upload: 'xtqiniu upload xxxx xxxx, 上传文件到七牛，支持上传文件夹'
+      upload: 'qntool upload xxxx xxxx, 上传文件到七牛，支持上传文件夹'
     }
   })
 }

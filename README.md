@@ -1,8 +1,8 @@
-# xtqiniu
+# qntool
 
 ## 使用帮助
 ```
-xtqiniu --help
+qntool --help
 ```
 ```
  由于七牛对批量上传，不稳定，建议本地在使用
@@ -21,18 +21,18 @@ npm install
 `请用淘宝镜像：cnpm ,npm本地慢`
 ```
 # npm link to global node_modules/
-cd xtqiniu
+cd qntool
 cnpm link
 
 # link to project /node_modules/
 cd project
-cnpm link xtqiniu
+cnpm link qntool
 
 # unlink from project /node_modules/
 cd project
-cnpm unlink xtqiniu
+cnpm unlink qntool
 
 # unlink from global node_modules/
-cd xtqiniu
+cd qntool
 cnpm unlink
 ```
