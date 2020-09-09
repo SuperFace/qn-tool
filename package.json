@@ -2,6 +2,8 @@
   "name": "xtqiniu",
   "version": "1.0.0",
   "description": "本地七牛上传工具",
+  "author": "林小蕾 <https://github.com/SuperFace>",
+  "private": true,
   "main": "index.js",
   "bin": {
     "xtqiniu": "./bin/xtqiniu"
@@ -24,6 +26,5 @@
   "devDependencies": {
     "mocha": "^5.2.0"
   },
-  "author": "",
   "license": "ISC"
 }
