@@ -1,8 +1,8 @@
 module.exports = {
-    publicPath: 'https://xxxcdn.xxxx.com/', //CDN域名，最后要有：‘/’
-    accessKey: 'xxxx',//AK
-    secretKey: 'xxxxx',//SK
-    bucket: 'fe-proxtassets',//Bucket
-    zone: 'Zone_z1',//华北
-    cover: true
-  };
+  publicPath: 'https://proxt-cdn.xuetangx.com/', //CDN域名，最后要有：‘/’
+  accessKey: 'XbBjw6RmDf-8tTJ8vwVjI6fR1sOboimKSfnRK6Jf',//AK
+  secretKey: '_7ZPARAS--B5en3Y7qgT6f7XNemQCbR5iybLruqo',//SK
+  bucket: 'fe-proxtassets',//Bucket
+  zone: 'Zone_z1',//华北
+  cover: true
+};
