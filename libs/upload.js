@@ -9,7 +9,7 @@ const config = require('../config');
 const args = util.args();
 
 // 上传文件到七牛云
-class QiniuUploadWebpackPlugin {
+class QiniuUpload {
     constructor(qiniuConfig) {
         if (
             !qiniuConfig ||
@@ -77,7 +77,7 @@ class QiniuUploadWebpackPlugin {
                 console.log(`${this.entries.length} files ready!`);
                 const spinner = ora('开始上传七牛云...').start();
                 let assetsPromise = [];
-                if(this.entries.length > 50){
+                if(this.entries.length > 50){//分批次上传
                     let order = 0;
                     let uploadHandler = ()=>{
                         let end = order+50;
@@ -211,4 +211,4 @@ class QiniuUploadWebpackPlugin {
     }
 }
 
-module.exports = new QiniuUploadWebpackPlugin(config);
+module.exports = new QiniuUpload(config);
