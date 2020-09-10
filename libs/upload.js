@@ -109,7 +109,9 @@ class QiniuUpload {
                                     spinner.succeed(`${order}/${this.entries.length}-七牛云上传完毕!`);
                                 }else{
                                     spinner.succeed(`${order}/${this.entries.length}-上传完毕!`);
-                                    uploadHandler();
+                                    setTimeout(()=>{
+                                        uploadHandler();
+                                    }, 0);
                                 }
                             })
                             .catch(err => {
