@@ -51,4 +51,4 @@ qn-tool --help
 ```
 格式：qn-tool upload 要上传的文件夹/  上传到七牛的路径
 例如：qn-tool upload MathJax@3/ xtassets/MathJax@3/
-![图片描述](/tfl/captures/2020-09/tapd_23552461_base64_1599821687_57.png)
+![图片描述](https://proxt-cdn.xuetangx.com/fe-proxtassets/images/tapd_23552461_base64_1599821687_57.png)
