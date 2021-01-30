@@ -77,10 +77,10 @@ class QiniuUpload {
                 console.log(`${this.entries.length} files ready!`);
                 const spinner = ora('开始上传七牛云...').start();
                 let assetsPromise = [];
-                if(this.entries.length > 50){//分批次上传
+                if(this.entries.length > 20){//分批次上传
                     let order = 0;
                     let uploadHandler = ()=>{
-                        let end = order+50;
+                        let end = order+20;
                         let newEntries = [];
                         if(end >=this.entries.length){
                             newEntries = this.entries.slice(order);
